@@ -1,0 +1,13 @@
+{
+  "name": "newscop",
+  "description": "newscop",
+  "version": "1.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+        "matches": ["<all_urls>"],
+        "js": ["jquery-3.6.0.min.js", "contents.js"], 
+        "run_at": "document_end"
+    }
+  ]
+}
